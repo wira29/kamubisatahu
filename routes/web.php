@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('front.index');
 });
 
-Route::resource('home', HomeController::class);
+Route::prefix('home')->group(function () {
+    Route::get('/', [HomeController::class, 'index']);
+    Route::get('/{blogs:slug}', [HomeController::class, 'show']);
+});
 
 // Route::resources('category', [CategoriesController::class]);

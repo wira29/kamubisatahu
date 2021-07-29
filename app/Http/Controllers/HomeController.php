@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Categories;
+use App\Models\Blogs;
 
 class HomeController extends Controller
 {
@@ -16,6 +17,7 @@ class HomeController extends Controller
     {
         $data = [
             'kategori' => Categories::all(),
+            'blogs' => Blogs::paginate(5),
         ];
 
         return view('front.index', $data);
@@ -48,9 +50,9 @@ class HomeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Blogs $blogs)
     {
-        //
+        return view('front.detailBlog', ['blog' => $blogs]);
     }
 
     /**
