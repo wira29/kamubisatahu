@@ -11,12 +11,33 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+                <div class="description text-white">
+                    <div class="container p-5">
+                        <h1 class="mb-4">Temukan berita menarik setiap hari</h1>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reprehenderit earum dignissimos! Vel ullam nostrum debitis unde assumenda officiis similique in minima illo laboriosam, voluptates, aspernatur rerum! Suscipit, veniam dicta.</p>
+                    <a href="" class="btn btn-light">See more</a>
+                    </div>
+                </div>
                 </div>
                 <div class="carousel-item">
                 <img src="https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80" class="d-block w-100" alt="...">
+                <div class="description text-white">
+                    <div class="container p-5">
+                        <h1 class="mb-4">aaaa</h1>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reprehenderit earum dignissimos! Vel ullam nostrum debitis unde assumenda officiis similique in minima illo laboriosam, voluptates, aspernatur rerum! Suscipit, veniam dicta.</p>
+                    <a href="" class="btn btn-light">See more</a>
+                    </div>
+                </div>
                 </div>
                 <div class="carousel-item">
                 <img src="https://images.unsplash.com/photo-1585241936939-be4099591252?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+                <div class="description text-white">
+                    <div class="container p-5">
+                        <h1 class="mb-4">aaaa</h1>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reprehenderit earum dignissimos! Vel ullam nostrum debitis unde assumenda officiis similique in minima illo laboriosam, voluptates, aspernatur rerum! Suscipit, veniam dicta.</p>
+                    <a href="" class="btn btn-light">See more</a>
+                    </div>
+                </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -31,7 +52,7 @@
     </section>
 
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-lg-8">
                     <h3 class="">News</h3>
@@ -52,43 +73,8 @@
                                             <div class="col-lg-12">
                                                 <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates minima perspiciatis quod aut nihil autem dolorem excepturi molestias sequi alias provident corrupti, vero qui eum assumenda debitis aperiam aliquam magni?...</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <img class="blog-image" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <div class="col-lg-12">
-                                                <h5>Belajar CRUD dengan PHP</h5>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates minima perspiciatis quod aut nihil autem dolorem excepturi molestias sequi alias provident corrupti, vero qui eum assumenda debitis aperiam aliquam magni?...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <img class="blog-image" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <div class="col-lg-12">
-                                                <h5>Belajar CRUD dengan PHP</h5>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates minima perspiciatis quod aut nihil autem dolorem excepturi molestias sequi alias provident corrupti, vero qui eum assumenda debitis aperiam aliquam magni?...</p>
+                                            <div class="col-lg-12 d-flex justify-content-end">
+                                                <a href="" class="btn btn-dark">Read more</a>
                                             </div>
                                         </div>
                                     </div>
@@ -102,9 +88,11 @@
 
                     <div class="card">
                         <div class="card-body">
-                            <a href="">Tecnologhy</a>
-                            <hr>
-                            <a href="">Tecnologhy</a>
+
+                            @foreach($kategori as $kt)
+                                <a href="">{{ $kt->category_name }}</a>
+                                <hr>
+                            @endforeach
                         </div>
                     </div>
                 </div>

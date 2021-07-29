@@ -6,10 +6,38 @@
 body {
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.carousel button{
+    z-index: 5;
+}
+
 .carousel .carousel-inner img{
     height: 100vh;
+    z-index: 0;
+}
+
+.carousel .carousel-inner .description{
+    z-index: 2;
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right: 0;
+}
+
+.carousel::after {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card .card-body .blog-image {
-    height: 5rem;
+    height: 6rem;
 }
