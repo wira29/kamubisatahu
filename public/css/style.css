@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+}
+
+.carousel .carousel-inner img{
+    height: 100vh;
+}
+
+.card .card-body .blog-image {
+    height: 5rem;
+}
